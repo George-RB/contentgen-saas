@@ -6,9 +6,9 @@
   "scripts": {
     "dev": "nodemon src/index.ts",
     "build": "tsc",
-    "start": "node dist/index.js", 
+    "start": "node dist/index.js",
     "type-check": "tsc --noEmit",
-    "clean": "rm -rf dist",       
+    "clean": "rm -rf dist",
     "db:reset": "npm run clean && npm run build && npm start"
   },
   "keywords": [],
@@ -31,6 +31,7 @@
     "@types/express": "^5.0.3",
     "@types/jsonwebtoken": "^9.0.10",
     "@types/morgan": "^1.9.10",
+    "@types/mysql": "^2.15.27",
     "@types/node": "^24.9.1",
     "nodemon": "^3.1.10",
     "ts-node": "^10.9.2",
