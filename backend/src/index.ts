@@ -1,5 +1,5 @@
 import express from 'express';
-import cors from 'cors';
+import cors from 'cors'; // то есть это библиотека а я думал что это встроенная фигня в браузере
 import helmet from 'helmet';
 import morgan from 'morgan';
 import dotenv from 'dotenv';
